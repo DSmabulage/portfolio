@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Offside&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=ZCOOL+XiaoWei&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-banner{
+    background-image: url(images/pexels-miguel-á-padriñán-19670.jpg);    
+}
+.navbar-nav{
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'JetBrains Mono', monospace;    
+}
+
+.main-img{
+    width: 100%;
+    
+}
+.main-img-me{
+    text-align: right;
+}
+.pad-me{
+    padding-top: 7%;
+}   
+
+.main h3{
+    font-size: 4.5rem;
+    font-weight: 700;
+
+}
+.main h6{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: 800;
+} 
+.main .bt1{
+    font-size: 1.25rem;
+    height: 55px;
+    width: 138px;
+    background-color: rgb(23, 23, 23);
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.main .bt1:hover{
+    background-color: transparent;
+    border: 2px solid #101010;
+    color: #101010;
+    transition: 0.5s;
+
+}
+.main .bt2{
+    font-size: 1.12rem;
+    height: 55px;
+    width: 138px;
+    background-color: transparent;    
+    outline: none;
+    border: 2px solid #101010;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.main .bt2:hover{
+    background-color: #101010;
+    transition: 0.5s;
+    color: seashell;
+
+}
+
+.big-banner{
+    background-image: url(./images/pexels-eriks-abzinovs-3117226.jpg);
+    
+
+}
+.col h6{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3rem;  
+    text-align: center;
+    color: white;
+}
+.col p{
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.col .card{
+    border-radius: 1rem;
+}
+
+.vlog-section h1{
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.blog-banner{
+    background-image: url(./images/pexels-steve-johnson-1843717.jpg);
+}
+.card-body p{
+    color: #101010;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2rem;
+}
+.card img{
+    padding: 0.3rem;
+    border-radius: 1rem;
+}
+
+.card-body a{
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-family: 'Merriweather', serif;
+    
+}
+.card-body button{
+    font-family: 'JetBrains Mono', monospace;
+    background-color: #101010;
+    color: white;       
+}
+.card-body button:hover{
+    color: #101010;
+    background-color: white;
+    transition: 0.5s;
+}
+.card-body .date{
+    float: right;
+    font-weight:600;
+}
+
+.moretext{
+    display: none;
+}
+
+.card-text.show-more .moretext{
+    display: inline;
+}
+.card-text.show-more .dots{
+    display: none;
+} 
+
+.about-banner{
+    background-image: url(images/pexels-elijah-odonnell-3473569.jpg);
+}
+.middle{
+    text-align: center;
+    color: white;
+}
+.middle small{
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+}
+.middle h3{
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 3rem;
+}
+.middle .content small{
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 2rem;
+
+}
+.middle .content h3{
+    font-size: 2rem;
+    font-family: 'Permanent Marker', cursive;
+}
+.footer-icons{
+    margin: 1.5%;
+    color: white;
+}
+.footer-icons:hover{
+    background-color: transparent;    
+    color: #aa0f0f;    
+}
+.footer{
+    text-align: center;
+}
+.footer-link{
+    background-color: #B1D0E0;
+}
